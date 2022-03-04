@@ -1,0 +1,54 @@
+* {
+  margin: auto;
+  color: #403d39;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.firstPage {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.roadSign {
+  display: block;
+  width: 30%;
+  padding: 25px;
+}
+
+/* end of entry page*/
+/* second page*/
+#container {
+  background-color: #b8b4b4;
+  height: 100%;
+  width: 100%;
+}
+
+.expectations {
+  margin-left: 50px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row:nth-child(even) .brick:first-child,
+.row:nth-child(even) .brick:last-child {
+  width: 70px;
+}
+
+.brick {
+  width: 145px;
+  height: 40px;
+  background-color: #403d39;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
